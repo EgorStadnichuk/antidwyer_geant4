@@ -1,0 +1,3 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+\.(aux|log|pyc|bak|dvi|gz|xml|iml|cmake|make|csv|o|out|bin|internal|include|exe)$
+^\.ipynb_checkpoints

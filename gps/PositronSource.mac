@@ -1,0 +1,20 @@
+/gps/particle e+
+/gps/number 1
+/gps/position 0. 0. 0. m
+
+#energy distribution from file
+/gps/ene/type Arb
+/gps/hist/type arb
+/gps/hist/file ../gps/spectrum_field250_height8/PositronEnergyy.txt
+/gps/hist/inter Lin
+
+#theta angle distribution from file
+/gps/ang/type user
+/gps/hist/type theta
+/gps/hist/file ../gps/spectrum_field250_height8/PositronAngle.txt
+/gps/hist/inter Lin
+
+#phi angle distribution
+/gps/hist/type phi
+/gps/hist/point 0. 1.
+/gps/hist/point 3. 0.

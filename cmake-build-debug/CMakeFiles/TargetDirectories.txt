@@ -1,0 +1,3 @@
+/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/CMakeFiles/positron_gamma_birth.exe.dir

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../schema/gdml.xsd">
+    <define>
+        <quantity value="300" name="worldWidth" unit="m"/>
+        <quantity value="1200" name="worldHeigth" unit="m"/>
+        <quantity value="125" name="cellWidth" unit="m"/>
+        <quantity value="250" name="cellHeigth" unit="m"/>
+        <quantity value="0" name="cellDistanse" unit="m"/>
+        <position name="centerPos"/>
+        <position name="cell1Pos" z="(cellDistanse + cellHeigth)/2 "/>
+        <position name="cell2Pos" z="-1*(cellDistanse + cellHeigth)/2 "/>
+        <position name="cell2PosAngle" x="-cellWidth" z="-1*(cellDistanse + cellHeigth)/2 "/>
+    </define>
+    <materials>
+    </materials>
+    <solids>
+        <box name="world" x="worldWidth" y="worldWidth" z="worldHeigth"/>
+        <box name="cell" x="cellWidth" y="cellWidth" z="cellHeigth" />
+        <para name = "cellAngle" x="cellWidth" y="cellWidth" z="cellHeigth" alpha="0" theta="45" phi="0" aunit="degree"/>
+    </solids>
+    <structure>
+        <volume name="Cell1">
+            <materialref ref="G4_AIR"/>
+            <solidref ref="cell"/>
+            <auxiliary auxtype="ElectricField" auxvalue="UniformZ1">
+                    <auxiliary auxtype="Ex" auxvalue="0"/>
+                    <auxiliary auxtype="Ey" auxvalue="0"/>
+                    <auxiliary auxtype="Ez" auxvalue="4e-4"/>
+            </auxiliary>
+        </volume>
+     <!   <volume name="Cell2">
+            <materialref ref="G4_AIR"/>
+            <solidref ref="cellAngle"/>
+            <auxiliary auxtype="ElectricField" auxvalue="UniformZ2">
+                <auxiliary auxtype="Ex" auxvalue="0"/>
+                <auxiliary auxtype="Ey" auxvalue="0"/>
+                <auxiliary auxtype="Ez" auxvalue="4e-4"/>
+            </auxiliary>
+        </volume> >
+        <volume name="World">
+            <materialref ref="G4_AIR"/>
+            <solidref ref="world"/>
+            <physvol>
+                <volumeref ref="Cell1"/>
+                <positionref ref="cell1Pos"/>
+            </physvol>
+            <physvol>
+                <volumeref ref="Cell2"/>
+                <positionref ref="cell2PosAngle"/>
+            </physvol>
+        </volume>
+    </structure>
+    <setup name="test" version="1.0">
+        <world ref="World"/>
+    </setup>
+</gdml>

@@ -1,0 +1,487 @@
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+  <define />
+
+  <materials>
+    <isotope N="12" Z="6" name="C12">
+      <atom unit="g/mole" value="12" />
+    </isotope>
+    <isotope N="13" Z="6" name="C13">
+      <atom unit="g/mole" value="13.0034" />
+    </isotope>
+    <element name="C">
+      <fraction n="0.9893" ref="C12" />
+      <fraction n="0.0107" ref="C13" />
+    </element>
+    <isotope N="14" Z="7" name="N14">
+      <atom unit="g/mole" value="14.0031" />
+    </isotope>
+    <isotope N="15" Z="7" name="N15">
+      <atom unit="g/mole" value="15.0001" />
+    </isotope>
+    <element name="N">
+      <fraction n="0.99632" ref="N14" />
+      <fraction n="0.00368" ref="N15" />
+    </element>
+    <isotope N="16" Z="8" name="O16">
+      <atom unit="g/mole" value="15.9949" />
+    </isotope>
+    <isotope N="17" Z="8" name="O17">
+      <atom unit="g/mole" value="16.9991" />
+    </isotope>
+    <isotope N="18" Z="8" name="O18">
+      <atom unit="g/mole" value="17.9992" />
+    </isotope>
+    <element name="O">
+      <fraction n="0.99757" ref="O16" />
+      <fraction n="0.00038" ref="O17" />
+      <fraction n="0.00205" ref="O18" />
+    </element>
+    <isotope N="36" Z="18" name="Ar36">
+      <atom unit="g/mole" value="35.9675" />
+    </isotope>
+    <isotope N="38" Z="18" name="Ar38">
+      <atom unit="g/mole" value="37.9627" />
+    </isotope>
+    <isotope N="40" Z="18" name="Ar40">
+      <atom unit="g/mole" value="39.9624" />
+    </isotope>
+    <element name="Ar">
+      <fraction n="0.003365" ref="Ar36" />
+      <fraction n="0.000632" ref="Ar38" />
+      <fraction n="0.996003" ref="Ar40" />
+    </element>
+    <material name="airHeightCorsika_3225" state="gas">
+      <T unit="K" value="267.1875" />
+      <P unit="pascal" value="67086.6359349516" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008876932272" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3275" state="gas">
+      <T unit="K" value="266.8625" />
+      <P unit="pascal" value="66625.1340273676" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008835830208" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3325" state="gas">
+      <T unit="K" value="266.5375" />
+      <P unit="pascal" value="66165.6930293082" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008794728144" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3375" state="gas">
+      <T unit="K" value="266.2125" />
+      <P unit="pascal" value="65708.3100928051" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.000875362608" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3425" state="gas">
+      <T unit="K" value="265.8875" />
+      <P unit="pascal" value="65252.9823504221" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008712524016" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3475" state="gas">
+      <T unit="K" value="265.5625" />
+      <P unit="pascal" value="64799.706915252" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008671421952" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3525" state="gas">
+      <T unit="K" value="265.2375" />
+      <P unit="pascal" value="64348.4808809127" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008630319888" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3575" state="gas">
+      <T unit="K" value="264.9125" />
+      <P unit="pascal" value="63899.301321545" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008589217824" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3625" state="gas">
+      <T unit="K" value="264.5875" />
+      <P unit="pascal" value="63452.1652918104" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.000854811576" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3675" state="gas">
+      <T unit="K" value="264.2625" />
+      <P unit="pascal" value="63007.0698268899" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008507013696" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3725" state="gas">
+      <T unit="K" value="263.9375" />
+      <P unit="pascal" value="62564.0119424826" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008465911632" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3775" state="gas">
+      <T unit="K" value="263.6125" />
+      <P unit="pascal" value="62122.9886348056" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008424809568" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3825" state="gas">
+      <T unit="K" value="263.2875" />
+      <P unit="pascal" value="61683.9968805945" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008383707504" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3875" state="gas">
+      <T unit="K" value="262.9625" />
+      <P unit="pascal" value="61247.033637104" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.000834260544" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3925" state="gas">
+      <T unit="K" value="262.6375" />
+      <P unit="pascal" value="60812.0958421093" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008301503376" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_3975" state="gas">
+      <T unit="K" value="262.3125" />
+      <P unit="pascal" value="60379.1804139084" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008260401312" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_4025" state="gas">
+      <T unit="K" value="261.9875" />
+      <P unit="pascal" value="59948.2842513248" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008219299248" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_4075" state="gas">
+      <T unit="K" value="261.6625" />
+      <P unit="pascal" value="59519.4042337104" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008178197184" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_4125" state="gas">
+      <T unit="K" value="261.3375" />
+      <P unit="pascal" value="59092.5372209498" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.000813709512" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_4175" state="gas">
+      <T unit="K" value="261.0125" />
+      <P unit="pascal" value="58667.6800534646" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008095993056" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <material name="airHeightCorsika_4225" state="gas">
+      <T unit="K" value="260.6875" />
+      <P unit="pascal" value="58244.8295522188" />
+      <MEE unit="eV" value="85.7" />
+      <D unit="g/cm3" value="0.0008054890992" />
+      <fraction n="0.000124000124000124" ref="C" />
+      <fraction n="0.755267755267755" ref="N" />
+      <fraction n="0.231781231781232" ref="O" />
+      <fraction n="0.0128270128270128" ref="Ar" />
+    </material>
+    <isotope N="1" Z="1" name="H1">
+      <atom unit="g/mole" value="1.00782503081372" />
+    </isotope>
+    <isotope N="2" Z="1" name="H2">
+      <atom unit="g/mole" value="2.01410199966617" />
+    </isotope>
+    <element name="H">
+      <fraction n="0.999885" ref="H1" />
+      <fraction n="0.000115" ref="H2" />
+    </element>
+    <material name="G4_Galactic" state="gas">
+      <T unit="K" value="2.73" />
+      <P unit="pascal" value="3e-18" />
+      <MEE unit="eV" value="21.8" />
+      <D unit="g/cm3" value="1e-25" />
+      <fraction n="1" ref="H" />
+    </material>
+  </materials>
+
+  <solids>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3225" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3275" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3325" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3375" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3425" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3475" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3525" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3575" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3625" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3675" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3725" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3775" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3825" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3875" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3925" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_3975" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_4025" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_4075" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_4125" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_4175" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="cell_4225" rmax="4500000" rmin="0" startphi="0" z="50000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="world" rmax="5000000" rmin="0" startphi="0" z="2050000" />
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="detector" rmax="4500000" rmin="0" startphi="0" z="1000" />
+  </solids>
+
+  <structure>
+    <volume name="cellLogic_3225">
+      <materialref ref="airHeightCorsika_3225" />
+      <solidref ref="cell_3225" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3275">
+      <materialref ref="airHeightCorsika_3275" />
+      <solidref ref="cell_3275" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3325">
+      <materialref ref="airHeightCorsika_3325" />
+      <solidref ref="cell_3325" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3375">
+      <materialref ref="airHeightCorsika_3375" />
+      <solidref ref="cell_3375" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3425">
+      <materialref ref="airHeightCorsika_3425" />
+      <solidref ref="cell_3425" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3475">
+      <materialref ref="airHeightCorsika_3475" />
+      <solidref ref="cell_3475" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3525">
+      <materialref ref="airHeightCorsika_3525" />
+      <solidref ref="cell_3525" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3575">
+      <materialref ref="airHeightCorsika_3575" />
+      <solidref ref="cell_3575" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3625">
+      <materialref ref="airHeightCorsika_3625" />
+      <solidref ref="cell_3625" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3675">
+      <materialref ref="airHeightCorsika_3675" />
+      <solidref ref="cell_3675" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3725">
+      <materialref ref="airHeightCorsika_3725" />
+      <solidref ref="cell_3725" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3775">
+      <materialref ref="airHeightCorsika_3775" />
+      <solidref ref="cell_3775" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3825">
+      <materialref ref="airHeightCorsika_3825" />
+      <solidref ref="cell_3825" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3875">
+      <materialref ref="airHeightCorsika_3875" />
+      <solidref ref="cell_3875" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3925">
+      <materialref ref="airHeightCorsika_3925" />
+      <solidref ref="cell_3925" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_3975">
+      <materialref ref="airHeightCorsika_3975" />
+      <solidref ref="cell_3975" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_4025">
+      <materialref ref="airHeightCorsika_4025" />
+      <solidref ref="cell_4025" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_4075">
+      <materialref ref="airHeightCorsika_4075" />
+      <solidref ref="cell_4075" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_4125">
+      <materialref ref="airHeightCorsika_4125" />
+      <solidref ref="cell_4125" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_4175">
+      <materialref ref="airHeightCorsika_4175" />
+      <solidref ref="cell_4175" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="cellLogic_4225">
+      <materialref ref="airHeightCorsika_4225" />
+      <solidref ref="cell_4225" />
+    <auxiliary auxtype="ElectricField" auxvalue="Uniform"><auxiliary auxtype="Ex" auxvalue="0" /><auxiliary auxtype="Ey" auxvalue="0" /><auxiliary auxtype="Ez" auxvalue="0.00018" /></auxiliary></volume>
+    <volume name="worldLogic">
+      <materialref ref="G4_Galactic" />
+      <solidref ref="world" />
+      <physvol name="cellPhys_3225">
+        <volumeref ref="cellLogic_3225" />
+        <position name="cellPhys_3225_pos" unit="mm" x="0" y="0" z="-500000" />
+      </physvol>
+      <physvol name="cellPhys_3275">
+        <volumeref ref="cellLogic_3275" />
+        <position name="cellPhys_3275_pos" unit="mm" x="0" y="0" z="-450000" />
+      </physvol>
+      <physvol name="cellPhys_3325">
+        <volumeref ref="cellLogic_3325" />
+        <position name="cellPhys_3325_pos" unit="mm" x="0" y="0" z="-400000" />
+      </physvol>
+      <physvol name="cellPhys_3375">
+        <volumeref ref="cellLogic_3375" />
+        <position name="cellPhys_3375_pos" unit="mm" x="0" y="0" z="-350000" />
+      </physvol>
+      <physvol name="cellPhys_3425">
+        <volumeref ref="cellLogic_3425" />
+        <position name="cellPhys_3425_pos" unit="mm" x="0" y="0" z="-300000" />
+      </physvol>
+      <physvol name="cellPhys_3475">
+        <volumeref ref="cellLogic_3475" />
+        <position name="cellPhys_3475_pos" unit="mm" x="0" y="0" z="-250000" />
+      </physvol>
+      <physvol name="cellPhys_3525">
+        <volumeref ref="cellLogic_3525" />
+        <position name="cellPhys_3525_pos" unit="mm" x="0" y="0" z="-200000" />
+      </physvol>
+      <physvol name="cellPhys_3575">
+        <volumeref ref="cellLogic_3575" />
+        <position name="cellPhys_3575_pos" unit="mm" x="0" y="0" z="-150000" />
+      </physvol>
+      <physvol name="cellPhys_3625">
+        <volumeref ref="cellLogic_3625" />
+        <position name="cellPhys_3625_pos" unit="mm" x="0" y="0" z="-100000" />
+      </physvol>
+      <physvol name="cellPhys_3675">
+        <volumeref ref="cellLogic_3675" />
+        <position name="cellPhys_3675_pos" unit="mm" x="0" y="0" z="-50000" />
+      </physvol>
+      <physvol name="cellPhys_3725">
+        <volumeref ref="cellLogic_3725" />
+      </physvol>
+      <physvol name="cellPhys_3775">
+        <volumeref ref="cellLogic_3775" />
+        <position name="cellPhys_3775_pos" unit="mm" x="0" y="0" z="50000" />
+      </physvol>
+      <physvol name="cellPhys_3825">
+        <volumeref ref="cellLogic_3825" />
+        <position name="cellPhys_3825_pos" unit="mm" x="0" y="0" z="100000" />
+      </physvol>
+      <physvol name="cellPhys_3875">
+        <volumeref ref="cellLogic_3875" />
+        <position name="cellPhys_3875_pos" unit="mm" x="0" y="0" z="150000" />
+      </physvol>
+      <physvol name="cellPhys_3925">
+        <volumeref ref="cellLogic_3925" />
+        <position name="cellPhys_3925_pos" unit="mm" x="0" y="0" z="200000" />
+      </physvol>
+      <physvol name="cellPhys_3975">
+        <volumeref ref="cellLogic_3975" />
+        <position name="cellPhys_3975_pos" unit="mm" x="0" y="0" z="250000" />
+      </physvol>
+      <physvol name="cellPhys_4025">
+        <volumeref ref="cellLogic_4025" />
+        <position name="cellPhys_4025_pos" unit="mm" x="0" y="0" z="300000" />
+      </physvol>
+      <physvol name="cellPhys_4075">
+        <volumeref ref="cellLogic_4075" />
+        <position name="cellPhys_4075_pos" unit="mm" x="0" y="0" z="350000" />
+      </physvol>
+      <physvol name="cellPhys_4125">
+        <volumeref ref="cellLogic_4125" />
+        <position name="cellPhys_4125_pos" unit="mm" x="0" y="0" z="400000" />
+      </physvol>
+      <physvol name="cellPhys_4175">
+        <volumeref ref="cellLogic_4175" />
+        <position name="cellPhys_4175_pos" unit="mm" x="0" y="0" z="450000" />
+      </physvol>
+      <physvol name="cellPhys_4225">
+        <volumeref ref="cellLogic_4225" />
+        <position name="cellPhys_4225_pos" unit="mm" x="0" y="0" z="500000" />
+      </physvol>
+    </volume>
+  </structure>
+
+  <setup name="Default" version="1.0">
+    <world ref="worldLogic" />
+  </setup>
+
+</gdml>

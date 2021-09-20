@@ -1,0 +1,20 @@
+ // from default.gdml
+        <volume name="Cell2">
+            <materialref ref="G4_AIR"/>
+            <solidref ref="cellAngle"/>
+            <auxiliary auxtype="ElectricField" auxvalue="UniformZ2">
+                <auxiliary auxtype="Ex" auxvalue="0"/>
+                <auxiliary auxtype="Ey" auxvalue="0"/>
+                <auxiliary auxtype="Ez" auxvalue="4e-4"/>
+            </auxiliary>
+        </volume>
+
+                    <physvol>
+                        <volumeref ref="Cell2"/>
+                        <positionref ref="cell2PosAngle"/>
+                    </physvol>
+
+
+
+/gps/hist/file ../gps/PositronEnergy.dat
+/gps/hist/inter Spline

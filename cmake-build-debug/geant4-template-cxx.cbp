@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="geant4-template-cxx"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geant4.exe">
+				<Option output="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/geant4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/usr/local/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 geant4.exe"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geant4.exe/fast">
+				<Option output="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/geant4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/usr/local/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 geant4.exe/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/ActionInitialization.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/DetectorConstruction.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/EmWithoutGammaInteraction.h">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/GeneralParticleSource.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/InputParser.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/PhysicsList.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/SensitiveDetector.hh">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/StackingAction.h">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/include/TrackingAction.h">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/main.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/ActionInitialization.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/DetectorConstruction.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/EmWithoutGammaInteraction.cpp">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/GeneralParticleSource.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/InputParser.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/PhysicsList.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/SensitiveDetector.cc">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/StackingAction.cpp">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/src/TrackingAction.cpp">
+			<Option target="geant4.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/Geant4LibraryDepends-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/Atmosphere/AntiDwyer/Advanced_Dwyer_Code/../../../../../../usr/local/lib/Geant4-10.3.0/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\Geant4-10.3.0\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

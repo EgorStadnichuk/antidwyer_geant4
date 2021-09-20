@@ -1,0 +1,25 @@
+
+*************************************************************
+ Geant4 version Name: geant4-10-03    (9-December-2016)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+G4GDML: Reading 'gdml/default.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+G4GDML: Reading setup...
+G4GDML: Reading 'gdml/default.gdml' done!
+Stripping off GDML names of materials, solids and volumes ...
+Found 1 volume(s) with auxiliary information.
+
+Volume Cell1 has the following list of auxiliary information: 
+
+--> Type: ElectricField Value: UniformZ1
+
+Volume Cell1 has the following list of auxiliary information: 
+
+Available UI session types: [ Qt, GAG, tcsh, csh ]

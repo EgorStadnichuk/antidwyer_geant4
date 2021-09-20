@@ -1,0 +1,1 @@
+-v -g ../gdml/default.gdml -i ../mac/init_vis.mac  -gps ../gps/Practice.mac > testing.txt

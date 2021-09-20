@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="seed"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\;CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="positron_gamma_birth.exe">
+				<Option output="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/positron_gamma_birth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/usr/local/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/npm-geant/CLionProjects/antidwyer_geant4/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 positron_gamma_birth.exe"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="positron_gamma_birth.exe/fast">
+				<Option output="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/positron_gamma_birth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/usr/local/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/npm-geant/CLionProjects/antidwyer_geant4/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 positron_gamma_birth.exe/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/npm-geant/CLionProjects/antidwyer_geant4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/ActionInitialization.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/DetectorConstruction.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/GeneralParticleSource.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/InputParser.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/PhysicsList.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/SensitiveDetector.hh">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/StackingAction.h">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/include/TrackingAction.h">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/main.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/ActionInitialization.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/DetectorConstruction.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/GeneralParticleSource.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/InputParser.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/PhysicsList.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/SensitiveDetector.cc">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/StackingAction.cpp">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/src/TrackingAction.cpp">
+			<Option target="positron_gamma_birth.exe"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/Geant4LibraryDepends-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\"/>
+		</Unit>
+		<Unit filename="/home/npm-geant/CLionProjects/antidwyer_geant4/../../../../usr/local/lib/Geant4-10.3.0/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\Geant4-10.3.0\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
